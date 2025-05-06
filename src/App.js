@@ -72,7 +72,7 @@ i18n
             }
           ],
           contact: "Contact Us",
-          contactEmail: "support@simcash.in",
+          contactEmail: "support@simcash.global",
           contactPrompt: "Have questions? Reach out to us:"
         }
       },
@@ -136,7 +136,7 @@ i18n
             }
           ],
           contact: "संपर्क करें",
-          contactEmail: "support@simcash.in",
+          contactEmail: "support@simcash.global",
           contactPrompt: "कोई प्रश्न हैं? हमसे संपर्क करें:"
         }
       }
@@ -255,7 +255,7 @@ function Contact() {
         </div>
         <div className="contact-item">
           <img src="https://i.ibb.co/XZGF6kKZ/free-icon-mail-9210464.png" alt="Email" />
-          <a href="mailto:support@simcash.in">{t("contactEmail")}</a>
+          <a href="mailto:support@simcash.global">{t("contactEmail")}</a>
         </div>
       </div>
     </section>
@@ -265,7 +265,7 @@ function Contact() {
 function Footer() {
   return (
     <footer>
-      © 2025 SimCash. All rights reserved. | support@simcash.in
+      © 2025 SimCash. All rights reserved. | support@simcash.global
     </footer>
   );
 }
