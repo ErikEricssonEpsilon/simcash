@@ -43,6 +43,22 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Language Button */
+.lang-btn {
+  margin-left: 20px;
+  background: none;
+  border: 1px solid #7dfdac;
+  color: #7dfdac;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.lang-btn:hover {
+  background-color: #7dfdac;
+  color: #0b1d3a;
+}
+
 /* Hero */
 .hero {
   text-align: center;
@@ -71,7 +87,7 @@ nav a:hover {
   font-size: 1em;
 }
 
-/* Section General */
+/* Section */
 .section {
   padding: 60px 20px;
   max-width: 900px;
@@ -131,11 +147,6 @@ nav a:hover {
 }
 
 /* Contact */
-.contact-email {
-  color: #7dfdac;
-  font-weight: bold;
-}
-
 .contact-methods {
   display: flex;
   flex-direction: column;
